@@ -1,5 +1,9 @@
 /* app css stylesheet */
 
+html, body {
+    box-sizing: border-box;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -27,6 +31,31 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.form-panel__container {
+    /*margin: 0 auto;*/
+}
+/* This is not only non-BEM, but it downright
+mixes layout with theme! Outrage!*/
+.form-panel {
+    padding: 2rem;
+    margin: 4rem auto;
+    width: 20rem;
+    height: 10rem;
+    background-color: #c0c6bf;
+}
+
+.form-panel label {
+    padding: 2rem 0;
+}
+.form-panel input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.form-panel input[type="submit"] {
+    float: right;
 }
 
 /* test here */
