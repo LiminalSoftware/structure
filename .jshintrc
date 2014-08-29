@@ -1,6 +1,27 @@
 {
-  "globalstrict": true,
-  "globals": {
-    "angular": false
-  }
+    "globalstrict": true,
+    "globals": {
+        "angular": false
+    },
+    "node": true,
+    "browser": true,
+    "esnext": true,
+    "bitwise": true,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": false,
+    "immed": true,
+
+    "latedef": true,
+    "newcap": false,
+    "noarg": true,
+    "quotmark": "both",
+    "regexp": true,
+    "undef": false,
+    "unused": false,
+    "strict": false,
+    "trailing": true,
+    "smarttabs": false,
+    "white": false,
+    "jquery": true
 }
