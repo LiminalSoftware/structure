@@ -22,7 +22,7 @@ gulp.task('js', function () {
 
 gulp.task('templatize', function () {
     gulp.src(['app/js/**/views/*tpl.html', 'app/*tpl.html'])
-        .pipe(templateCache({module: 'structure'}))
+        .pipe(templateCache({module: 'structure', root:'/structure/app/js/'}))
         .pipe(gulp.dest('app/js'));
 });
 

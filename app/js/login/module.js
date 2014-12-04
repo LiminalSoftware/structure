@@ -4,7 +4,7 @@ angular.module('login', ['login.controllers', 'login.services'])
 
       $stateProvider.state('login', {
           url: '/login',
-          templateUrl: 'login/views/login.tpl.html',
+          templateUrl: '/structure/app/js/login/views/login.tpl.html',
           controller: 'loginCtrl'
       });
   });
